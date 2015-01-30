@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.codefaction.suggestme11.ManagerGroupSettings">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerGroupSettings"
+            android:textSize="40sp"/>
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="30dip"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerChangeGroupName"
+            android:id="@+id/manageGroupChangeName"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerChangeGroupDescription"
+            android:id="@+id/manageGroupChangeDescription"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerAddTags"
+            android:id="@+id/manageGroupAddTags"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerSetGroupType"
+            android:id="@+id/manageGroupType"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerManageSuperGroups"
+            android:id="@+id/manageGroupSuperGroups"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerSetOtherDetails"
+            android:id="@+id/manageGroupSetOtherDetails"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/managerDeleteGroup"
+            android:id="@+id/manageGroupDeleteGroup"
+            android:layout_gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:background="#ff4659ff"
+            />
+
+        <Space android:layout_width="fill_parent"
+            android:layout_height="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

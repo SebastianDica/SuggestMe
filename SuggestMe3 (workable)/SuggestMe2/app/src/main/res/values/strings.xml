@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="loginPassword">Password</string>
+    <string name="app_name">SuggestMe1.1</string>
+    <string name="whatsnew">What is new?</string>
+    <string name="searchBar">What do you want to search?</string>
+    <string name="searchButton">Search</string>
+    <string name="myAccount">My Account</string>
+    <string name="mySuggestions">My Suggestions</string>
+    <string name="myGroups">My Groups</string>
+    <string name="loginString">E-mail</string>
+    <string name="loginButton">SIGN IN</string>
+    <string name="registerButton">OR REGISTER</string>
+    <string name="title_activity_register">Register</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nameRegister">Name</string>
+    <string name="idRegister">ID Number</string>
+    <string name="emailRegister">E-mail</string>
+    <string name="registerPass">Password</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="register">REGISTER</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="str_cnt_mnu_edit">Edit</string>
+    <string name="str_cnt_mnu_share">Share</string>
+    <string name="str_cnt_mnu_delete">Delete</string>
+    <string name="title_activity_my_groups">My Groups</string>
+    <string name="yourgroups">Your groups</string>
+    <string name="backMyGroups">Back</string>
+    <string name="groupCreation">I want my own group!</string>
+    <string name="manageGroups">Manage your groups</string>
+    <string name="title_activity_group">GroupActivity</string>
+    <string name="suggestButton">Suggest!</string>
+    <string name="groupDetailsButton">Group Details</string>
+    <string name="title_activity_group_creation">GroupCreationActivity</string>
+    <string name="groupName"><b>Group name</b></string>
+    <string name="groupDescription">Group description \n Say a few things about your group!</string>
+    <string name="groupDetailsCreation"> You can add a lot of details later, \n in the manager section!</string>
+    <string name="specifyTags">Specify some tags! \n So that people can find it! \n Separate them by semicolons ( ; )</string>
+    <string name="title_activity_loading_screen">LoadingScreen</string>
+    <string name="title_activity_my_suggestions">MySuggestions</string>
+    <string name="yoursuggestions">Your suggestions</string>
+    <string name="title_activity_group_summary">GroupSummary</string>
+    <string name="title_activity_own_groups">OwnGroups</string>
+    <string name="myowngroups">My own groups</string>
+    <string name="title_activity_group_manager_view">GroupManagerView</string>
+    <string name="group_settings">Group settings</string>
+    <string name="title_activity_manager_group_settings">ManagerGroupSettings</string>
+    <string name="title_activity_account_settings">AccountSettings</string>
+
+    <string name="title_activity_suggest_options">SuggestOptions</string>
+    <string name="txtSuggest">Text Suggestion</string>
+    <string name="surveyString">Survey</string>
+    <string name="debateString" />
+    <string name="debateString2">Debate</string>
+    <string name="title_activity_text_suggestion">textSuggestion</string>
+    <string name="title_activity_survey_suggestion">SurveySuggestion</string>
+    <string name="Submit" />
+    <string name="submit">Submit</string>
+    <string name="SurveyOption">Add an option</string>
+    <string name="title_activity_txt_suggest_vote">TxtSuggestVote</string>
+    <string name="title_activity_debate_suggestion">DebateSuggestion</string>
+    <string name="title_activity_survey_screen">SurveyScreen</string>
+    <string name="title_activity_debate_screen">DebateScreen</string>
+    <string name="typeKeywords">Type the keywords</string>
+
+    <string name="accountSettings">Account Settings</string>
+
+    <string name="yourSuggestionDebateSuggestion">Your suggestion</string>
+    <string name="addTagsDebateSuggestion">Add tags, separate them with a ( ; )</string>
+    <string name="startDebateButton">Start Debate!</string>
+    <string name="groupManagerViewSuggestion">Suggestions</string>
+
+    <string name="groupSummaryDetails">Details</string>
+    <string name="groupSummaryNoMembers">No. members: </string>
+    <string name="groupSummaryCreationDate">Created on: </string>
+    <string name="groupSummaryKeywords">Keywords: </string>
+    <string name="groupSummaryNoSuggestions">No. Suggestions: </string>
+    <string name="groupSummaryGroupDescription">Group description: </string>
+
+    <string name="loginTypeEmail">Type in your e-mail</string>
+    <string name="loginTypePassword">Type in your password</string>
+
+    <string name="managerGroupSettings">Group Settings</string>
+    <string name="managerChangeGroupName">Change Group Name</string>
+    <string name="managerChangeGroupDescription">Change Group Description</string>
+    <string name="managerAddTags">Add tags</string>
+    <string name="managerSetGroupType">Set Group Type</string>
+    <string name="managerManageSuperGroups">Manage Super Groups</string>
+    <string name="managerSetOtherDetails">Set Other Details</string>
+    <string name="managerDeleteGroup">Delete Group</string>
+
+    <string name="optionTextSuggestion">Text Suggestion</string>
+    <string name="optionDebateSuggestion">Debate Suggestion</string>
+    <string name="optionSurveySuggestion">Survey Suggestion</string>
+
+    <string name="yourSuggestionSurveySuggestion">Your suggestion</string>
+    <string name="addOptionsSurveySuggestion">Add options, separate them with a ( ; )</string>
+    <string name="addTagsSurveySuggestion">Add tags, separate them with a ( ; )</string>
+    <string name="submitSurveySuggestion">Submit</string>
+
+    <string name="yourSuggestionTextSuggestion">Your suggestion</string>
+    <string name="addTagsTextSuggestion">Add tags, separate them with a ( ; )</string>
+    <string name="submitTextSuggestion">Submit</string>
+
+</resources>

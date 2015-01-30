@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.codefaction.suggestme11.MySuggestions">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayoutMySuggestions"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="242dp"
+                android:layout_height="68dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:hint="@string/typeKeywords"
+                android:id="@+id/searchTextView" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="@string/searchButton"
+                android:id="@+id/searchButtonMySuggestions"
+                android:layout_gravity="right"
+                android:layout_weight="2.58"
+                android:textColor="@android:color/background_light"
+                android:background="#ff4659ff" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yoursuggestions"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/myGroupList"
+            android:layout_weight="8659.78">
+
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>
