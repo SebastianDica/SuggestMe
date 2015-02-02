@@ -2,6 +2,12 @@ package com.codefaction.suggestme11;
 
 import java.util.ArrayList;
 
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.simple.*;
+
 /**
  * Created by Sebastian on 05/01/2015. Code Faction.
  * This is how the objects will gain information from the Database
@@ -40,6 +46,9 @@ public class DataTypeObject
     private boolean flagged; private boolean newInstance;
     private String commonInterest;
     private ArrayList<Integer> parents; private ArrayList<Integer> children;
+
+    private HttpClient client = new DefaultHttpClient();
+
     public DataTypeObject()
     {
         type = new String(); label = new String();
@@ -130,9 +139,19 @@ public class DataTypeObject
     }
     public void update()
     {
-        //At this point the object accesses the database for more information
-        //I will skip this part because the database is not yet available
-        //However I do need to fill this up with random variables.
+        JSONObject jData = new JSONObject();
+
+        jData.put("type",type);
+        jData.put("id",id);
+
+        String data = jData.toString();
+        System.out.println(data);
+
+        try
+        {
+            HttpPost request = new HttpPost(/**sebs script on local server*/);
+
+        }
     }
     public String toString()
     {
